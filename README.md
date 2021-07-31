@@ -14,4 +14,4 @@ Q2 has two python codes. **Q2_s1.py** publishes its color status to topic /s1. *
 Q3 has one python code, **Q3_custom_msg.py**. This code was written just to check if my custom message was actually working.
 
 ## Q4
-Q4 has four python codes. **seconds.py** counts from 0 to 60 and publishes this count to the topic /seconds. **minutes.py** subscribes to that topic, increments whenever seconds cross 60, and publishes this value to /minutes. **hours.py** does the same thing, except is subscribes to both /seconds and /minutes. **clock.py** subscribes to all three of the above topics and publishes the "clock" to /clock.
+Q4 has four python codes. **seconds.py** counts from 0 to 60 and publishes this count to the topic /seconds. **minutes.py** subscribes to that topic, increments whenever seconds cross 60, and publishes this value to /minutes. **hours.py** does the same thing, except it subscribes to both /seconds and /minutes. **clock.py** subscribes to all three of the above topics and publishes the "clock" to /clock.
