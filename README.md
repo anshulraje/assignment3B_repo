@@ -1,8 +1,8 @@
 # Assignment 3B
 
-All the python files for the assignment can be found in the "Scripts" folder of the electronics package uploaded to classroom
+All the python files for the assignment can be found in the "Scripts" folder of the electronics package uploaded to classroom.
 
-The "msg" contains the .msg file for the custom message
+The "msg" folder contains the .msg file for the custom message.
 
 ## Q1
 Q1 has two python codes. **Q1_publisher.py** is the publisher that publishes to the topic /new, whereas **Q1_subscriber.py** is the subscriber that subscribes to the topic /new and prints to the terminal.
